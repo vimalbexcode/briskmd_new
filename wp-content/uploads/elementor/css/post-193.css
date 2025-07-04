@@ -1,0 +1,24 @@
+.elementor-193 .elementor-element.elementor-element-4a6ce494{--display:flex;--padding-top:150px;--padding-bottom:50px;--padding-left:0px;--padding-right:0px;}.elementor-193 .elementor-element.elementor-element-b11e4ee{--display:flex;}.elementor-widget-heading .elementor-heading-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-size:var( --e-global-typography-primary-font-size );font-weight:var( --e-global-typography-primary-font-weight );color:var( --e-global-color-primary );}.elementor-193 .elementor-element.elementor-element-1599c8de .elementor-heading-title{color:var( --e-global-color-secondary );}.elementor-193 .elementor-element.elementor-element-61a8dcf0{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-193 .elementor-element.elementor-element-2170a7c4{--display:flex;--align-items:center;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--border-radius:70px 70px 70px 70px;--padding-top:100px;--padding-bottom:100px;--padding-left:20px;--padding-right:20px;}.elementor-193 .elementor-element.elementor-element-2170a7c4:not(.elementor-motion-effects-element-type-background), .elementor-193 .elementor-element.elementor-element-2170a7c4 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-accent );}.elementor-193 .elementor-element.elementor-element-40b8ab25{--display:flex;}:root{--page-title-display:none;}@media(min-width:768px){.elementor-193 .elementor-element.elementor-element-40b8ab25{--width:70%;}}@media(max-width:1024px){.elementor-193 .elementor-element.elementor-element-4a6ce494{--padding-top:100px;--padding-bottom:50px;--padding-left:20px;--padding-right:20px;}.elementor-widget-heading .elementor-heading-title{font-size:var( --e-global-typography-primary-font-size );}.elementor-193 .elementor-element.elementor-element-2170a7c4{--border-radius:30px 30px 0px 0px;--padding-top:50px;--padding-bottom:100px;--padding-left:20px;--padding-right:20px;}}@media(max-width:767px){.elementor-widget-heading .elementor-heading-title{font-size:var( --e-global-typography-primary-font-size );}.elementor-193 .elementor-element.elementor-element-2170a7c4{--padding-top:25px;--padding-bottom:25px;--padding-left:20px;--padding-right:20px;}}/* Start custom CSS for container, class: .elementor-element-61a8dcf0 */.sjb-page{
+    padding: 0;
+}
+.sjb-page .list-data .v2{
+    margin-top: 0;
+}
+.btn.btn-primary{
+    background-color: var(--clr_primary);
+    color: var(--clr_white);
+    border: 1px solid var(--clr_primary);
+}
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:focus-visible,
+.btn.btn-primary:active{
+    background-color: var(--clr_white) !important;
+    color: var(--clr_primary) !important;
+}
+.sjb-page .sjb-filters.sjb-filters-v2 .btn-search{
+    width: 40px;
+}
+.filters-form>.row{
+    justify-content: center;
+}/* End custom CSS */
