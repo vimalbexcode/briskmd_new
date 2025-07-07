@@ -305,3 +305,15 @@ function my_test_shortcode() {
 }
 
 add_shortcode('clinic_list', 'my_test_shortcode');
+
+// new shortcode for clinic list
+function are_shortcode() {
+    ob_start(); // Start output buffering
+
+    // Load the PHP file - adjust path if needed
+    include get_template_directory() . '/front/area-city.php';
+
+    return ob_get_clean(); // Return the buffered content
+}
+
+add_shortcode('area_city', 'are_shortcode');

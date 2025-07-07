@@ -262,16 +262,16 @@
                     <!-- end of accordian -->
                 </div>
                 <!-- end of accordian item -->
-                <?php
-                
-                        $index++;
-                        endwhile;
-                        endif; 
-                        wp_reset_postdata(); 
+                <?php                
+                    $index++;
+                    endwhile;
+                    endif; 
+                    wp_reset_postdata(); 
                 ?>
                 <!-- item 2 -->
                 <?php  
-                /* <div class="accordion-item" id="clinic_accordion_item_2">
+                /* 
+                <div class="accordion-item" id="clinic_accordion_item_2">
                     <!-- <h2 class="accordion-header"> -->
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#clinic_collapse_2" aria-expanded="false" aria-controls="clinic_collapse_2"> BriskMd Gaston Clinic 2 </button>
                     <!-- </h2> -->
@@ -339,7 +339,8 @@
                         <!-- end of accordian body -->
                     </div>
                     <!-- end of content -->
-                </div> */ ?>
+                </div> */ 
+                ?>
                 <!-- end of accordian item -->
             </div>
         </div>
